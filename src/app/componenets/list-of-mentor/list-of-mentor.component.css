@@ -1,0 +1,303 @@
+
+.custom-navbar {
+  background-color: #cfe2ff;
+}
+
+.custom-navbar-nav{
+  margin-left: auto;
+}
+
+.btn.btn-light:hover {
+  background-color: rgb(155, 187, 238) ; /* Change the background color as needed */
+}
+
+.custom-footer{
+  background-color: #cfe2ff;
+}
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+
+.border-line {
+  --tw-border-opacity: 1!important;
+  border-color: rgb(229, 231, 235, var(--tw-border-opacity))!important;
+  border-style: solid!important;
+  border-bottom-width: 1px!important;
+}
+
+.example-button-row.custom-fab-button {
+  display: flex;
+  flex-direction: column; /* Display buttons vertically */
+  align-items: flex-start;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row; /* Display buttons horizontally within the group */
+  align-items: center;
+}
+
+.reset-button {
+  margin-top: 10px; /* Adjust the margin as needed to control the spacing */
+}
+
+.custom-fab-button {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: white;
+  color: black; 
+  padding: 10px 20px; 
+}
+
+.custom-button {
+  font-size: 13px; 
+  padding: 8px 16px; 
+  border: none; 
+  outline: none; 
+  cursor: pointer;
+}
+
+.circular-frame {
+  width: 250px; /* Adjust the width and height to your desired size */
+  height: 250px;
+  border-radius: 50%; /* Makes it a circle */
+  overflow: hidden; /* Clips anything outside the circle */
+  /* You can add additional styling here, such as border, shadow, etc. */
+}
+
+.circular-frame img {
+  width: 100%; /* Make sure the image fills the circular frame */
+  height: 100%;
+  object-fit: cover; /* Adjust to your preference */
+}
+
+/* Center the mat-card on the page */
+.Mentor-card {
+  width: 65%; /* Adjust this value to change the card's width as needed */
+  margin: 0 auto; /* Centers the card horizontally */
+  display: block;
+  border-radius: 0.75rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(209, 213, 219, 1);
+  padding: 1.25rem;
+}
+
+
+
+.custom-dropdown {
+
+border-radius: 10px; /* Adjust the value to control the curvature */
+
+width: 200px; /* Adjust the width as needed */
+
+}
+
+
+
+/* Apply curved edges to the mat-select trigger */
+
+.custom-dropdown .mat-select-trigger {
+
+border-radius: 0 0 10px 10px; /* To apply curvature only to the bottom corners */
+
+}
+
+
+
+
+
+.selectWrapper{
+
+border-radius:36px;
+
+display:inline-block;
+
+overflow:hidden;
+
+background:#cccccc;
+
+border:1px solid #cccccc;
+
+}
+
+.selectBox{
+
+width:140px;
+
+height:40px;
+
+border:0px;
+
+outline:none;
+
+} 
+
+
+.button{
+
+padding: 10px;
+
+border-radius: 50px;
+
+width: 15%;
+
+}
+
+
+.custom-dropdown-button {
+
+
+
+margin-top: 15px;
+
+/* Additional styling as needed */
+
+}
+
+
+
+.button-content {
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+}
+
+
+
+.skill-label {
+
+margin-top: 15px; /* Adjust as needed to move the label downwards */
+
+}
+
+.card-content {
+
+display: flex;
+
+}
+
+
+
+.left-content {
+
+flex: 1; /* Take up all available space on the left for the image */
+
+margin-right: 20px; /* Adjust spacing between image and content as needed */
+
+}
+
+
+
+
+
+.right-content {
+
+flex: 3; 
+
+}
+
+
+.drop-toggle {
+
+background-color: #fff;
+
+padding: 5px 10px;
+
+border-radius: 4px;
+
+cursor: pointer;
+
+cursor: hand;
+
+border: 1px solid black;
+
+border-radius: 30px;
+
+width: 100px;
+
+height: 50px;
+
+text-align: left;
+
+}
+
+.drop-toggle i {
+
+float: right;
+
+}
+
+.drop-show {
+
+padding: 4px;
+
+width: 222px;
+
+background-color: #fff;
+
+border: 1px solid #bababa;
+
+position: absolute;
+
+z-index: 100;
+
+-webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+
+-moz-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+
+box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+
+margin-left: 1px;
+
+}
+
+.drop-show label {
+
+display: block;
+
+font-size: 15px;
+
+cursor: pointer;
+
+}
+
+.drop-show label input {
+
+vertical-align: top;
+
+}
+
+.drop-show label span {
+
+display: inline-block;
+
+}
+
+
+
+.content {
+
+border-radius: 30px; /* Adjust the value to control the curvature */
+
+/* background-color: #007bff;  */
+
+color: #ffffff; /* Example text color */
+
+padding: 20px; /* Example padding */
+
+}
+
+p {
+  -webkit-box-orient: vertical;
+ display: -webkit-box;
+ -webkit-line-clamp: 3;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}

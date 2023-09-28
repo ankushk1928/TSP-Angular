@@ -1,0 +1,257 @@
+/* Add Bootstrap styles to your form elements */
+
+
+/* Center the form on the page */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style form elements */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.error-message {
+  display: block;
+  visibility: visible;
+}
+
+/* Style the form inputs */
+.form-control {
+  width: 100%;
+}
+
+/* Custom heading style */
+.custom-heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+/* Style the submit button */
+/* .btn-primary {
+  width: 22%;
+} */
+
+/* Custom container for Swal (SweetAlert) */
+.custom-swal-container {
+  max-width: 10px;
+  font-size: 14px;
+}
+
+.signup-title-msg {
+  margin-top: 7px;
+}
+
+
+#signIn {
+  margin-left: 20px;
+}
+
+
+/* Color bar style */
+.color-bar {
+  background-color: #8cc1f9;
+  height: 40px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.div1 {
+  margin: 20px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: end;
+}
+
+#signUp {
+  margin-left: 20px;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 576px) {
+  /* Adjust form styles for small screens */
+  .form-container {
+    padding: 20px;
+  }
+}
+
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* Add Bootstrap styles to your form elements */
+
+/* Center the form on the page */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style form elements */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.error-message {
+  display: block;
+  visibility: visible;
+}
+
+/* Style the form inputs */
+.form-control {
+  width: 100%;
+}
+
+/* Custom heading style */
+.custom-heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+/* Style the submit button */
+/* .btn btn-primary {
+  width: 22%;
+} */
+
+/* Custom container for Swal (SweetAlert) */
+.custom-swal-container {
+  max-width: 10px;
+  font-size: 14px;
+}
+
+.signup-title-msg {
+  margin-top: 7px;
+}
+
+/* Style the reCAPTCHA widget */
+.g-recaptcha {
+  margin: 10px 0;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 576px) {
+  /* Adjust form styles for small screens */
+  .form-container {
+    padding: 20px;
+  }
+}
+
+.btn.active-button,
+.btn.btn-outline-primary:focus,
+.btn.btn-outline-primary:active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.btn.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.btn.btn-outline-primary:disabled {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+  cursor: not-allowed;
+}
+
+/* Style the mentor link to look like a clickable link */
+.mentor-link {
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  text-decoration: underline; /* Add underline */
+  color: blue; /* Set the text color to blue */
+}
+
+/* Style the mentor link on hover (optional) */
+.mentor-link:hover {
+  color: darkblue; /* Change color on hover if desired */
+}
+
+  /* Custom CSS for side-by-side layout */
+  .side-by-side {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Style for individual fields */
+  .field {
+    flex: 1; /* Each field takes equal space */
+    margin-right: 10px; /* Adjust spacing between fields */
+  }
+
+/* form{
+    width: 500px;
+} */
+
+:host {
+  display: block;
+  height: 100vh;
+}
+
+/* .container {
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.custom-navbar {
+background-color: #cfe2ff;
+}
+
+.custom-navbar-nav{
+margin-left: auto;
+}
+
+
+
+.btn.btn-light:hover {
+background-color: rgb(155, 187, 238) ; /* Change the background color as needed */
+}
+
+.custom-footer{
+background-color: #cfe2ff;
+}
+
+#scrollFooter {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.footer-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

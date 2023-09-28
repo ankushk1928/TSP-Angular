@@ -1,0 +1,24 @@
+.mat-card.custom-card {
+    max-width: 600px; /* Adjust the maximum width as per your design */
+    margin-left: 10px; /* Center the card horizontally */
+    padding: 10px; /* Add padding for spacing */  }
+
+  .custom-content {
+    max-width: 600px; /* Adjust this value as needed */
+    margin-left: 50px ; /* Center the content horizontally */
+  }
+
+  .btn-light{
+    margin-left: 30%;
+}
+
+.bg-img {
+  background-image: url('/assets/mentor.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1; /* This places the background behind the content */
+}

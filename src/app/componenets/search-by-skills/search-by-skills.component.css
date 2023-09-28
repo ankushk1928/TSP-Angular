@@ -1,0 +1,143 @@
+ 
+
+.custom-navbar {
+
+  background-color: #cfe2ff;
+
+}
+
+ 
+
+.custom-navbar-nav{
+
+  margin-left: auto;
+
+}
+
+ 
+
+.btn.btn-light:hover {
+
+  background-color: rgb(155, 187, 238) ; /* Change the background color as needed */
+
+}
+
+ 
+
+.custom-footer{
+
+  background-color: #cfe2ff;
+
+}
+
+ 
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+ 
+
+ 
+
+.content-container{
+
+  min-height: calc(100vh - 10px - 50px);
+
+  display: flex;
+
+  flex-direction: column;
+
+  background-color: #f0f0f0;
+
+}
+
+ 
+
+.custom-content-container{
+
+  max-width: 750px;
+
+  flex-grow: 1;
+
+}
+
+/* Styling for the title box */
+
+.title-box {
+
+  background-color: #090957;
+
+  text-align: center;
+
+  padding: 20px;
+
+  margin-top: 70px; /* Adjust as needed */
+
+  width: 250px;
+
+  height: 40px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+ 
+
+.title-text {
+
+  color: white;
+
+  font-size: 24px; /* Adjust as needed */
+
+}
+
+ 
+
+/* Styling for the search box */
+
+.search-box {
+
+  background-color: white;
+
+  padding: 10px;
+
+  border-radius: 4px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  margin-top: 20px; /* Adjust as needed */
+
+}
+.gap{
+  margin-right: 20px; 
+}
+ 
+
+.custom-search-input{
+
+  width: 520px;
+  margin-top: 15px;
+
+
+}
+
+/* Styling for the search button */
+
+.btn-search {
+
+  background-color: #090957;
+
+  color: white;
+
+}
+
+ 
+
+.btn-search:hover{
+
+    background-color: blue; /* Change the background color as needed */
+
+  }
